@@ -16,7 +16,7 @@
         <merges target="cordova.plugins.firebase.dynamiclinks" />
     </js-module>
     <preference name="PAGE_LINK_DOMAIN" />
-    <dependency id="cordova-plugin-firebase-analytics" version="~4.3.0"/>
+    <dependency id="cordova-plugin-firebase-analytics" url="https://github.com/77matt/cordova-plugin-firebase-analytics"/>
     <platform name="android">
         <preference name="FIREBASE_DYNAMIC_LINKS_VERSION" default="19.1.+"/>
         <config-file parent="/*" target="res/xml/config.xml">
